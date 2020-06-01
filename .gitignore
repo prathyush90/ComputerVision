@@ -1,4 +1,4 @@
-./.idea
-./compression/data
-./imageenhancement/images
-./venv
+./.idea/*
+./compression/data/*
+./imageenhancement/images/*
+./venv/*
