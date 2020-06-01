@@ -5,6 +5,7 @@ import numpy as np
 N = 8
 from scipy.fftpack import dct, idct
 
+#Huffman coding is not implemented. Huffman coding needs to be done after Quantization to observe size reduction
 # implement 2D DCT
 def dct2(a):
     return dct(dct(a.T, norm='ortho').T, norm='ortho')
